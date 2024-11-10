@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "wZ8EhMQB7C+0XPP+5JTF1rmYoESEArLae36335cYQmSF+iA0f7vrv7f4YP/Xy7mS98VBBco9BMjWf2XVmo1ODA==",
+  "dgSpecHash": "TbPLuTTggLdKiG+Q+jeIVJyxbNrF+2WB7eZ/toxkccwUQAdSFC5i84moLvwB65JD0Vq12X1tCTSrp8NuWk5M0A==",
   "success": true,
   "projectFilePath": "C:\\MyWorkSpace\\E-CommerceProject\\ECommerceAPI\\Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.10\\microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\bcebe\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

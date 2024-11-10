@@ -3,7 +3,7 @@ using ECommerceAPI.Persistance;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddPersistanceServices();
+builder.Services.AddPersistanceServices(builder.Configuration);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
