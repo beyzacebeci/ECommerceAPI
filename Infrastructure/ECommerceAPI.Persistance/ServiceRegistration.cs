@@ -25,17 +25,16 @@ namespace ECommerceAPI.Persistance
             services.AddSingleton<IProductService, ProductService>();
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-            services.AddDbContext<ECommerceAPIDbContext>(options => options.UseNpgsql(connectionString),
-                ServiceLifetime.Singleton);
+            services.AddDbContext<ECommerceAPIDbContext>(options => options.UseNpgsql(connectionString));
 
-            services.AddSingleton<ICustomerReadRepository, CustomerReadRepository>();
-            services.AddSingleton<ICustmerWriteRepository, CustomerWriteRepository>();
+            services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
+            services.AddScoped<ICustmerWriteRepository, CustomerWriteRepository>();
 
-            services.AddSingleton<IOrderReadRepository, OrderReadRepository>();
-            services.AddSingleton<IOrderWriteRepository, OrderWriteRepository>();
+            services.AddScoped<IOrderReadRepository, OrderReadRepository>();
+            services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
 
-            services.AddSingleton<IProductReadRepository, ProductReadRepository>();
-            services.AddSingleton<IProductWriteRepository, ProductWriteRepository>();
+            services.AddScoped<IProductReadRepository, ProductReadRepository>();
+            services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
 
 
 
